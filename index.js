@@ -28,7 +28,7 @@ do {
       if (operador == "+" || operador == "-" || operador == "*" || operador == "/") {
          salir = true;
       } else {
-         alert("El operador ingresado es incorrecto")
+         alert("El operador ingresado es incorrecto");
       };
    } while (!salir)
 
@@ -55,13 +55,13 @@ do {
       case "/":
          alert("El resultado es: " + dividir(numero1, numero2));
          break;
-   }
+   };
 
    salir = false;
    exit = prompt("¿Desea realizar otra operación? [S / N]");
    if (exit.toUpperCase() == "N") {
       salir = true;
-   }
+   };
 
 } while (!salir);
 
